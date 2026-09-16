@@ -1,5 +1,5 @@
-import Dekodieren.py as dekodieren
-import Kodieren.py as kodieren
+from Dekodieren.py import decoder
+from Kodieren.py import encoder
 
 zeichenkette = "hallo"
 verschiebung = 4

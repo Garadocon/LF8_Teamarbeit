@@ -1,7 +1,7 @@
 from Dekodieren import decoder
 from Kodieren import encoder
 
-zeichenkette = "hallo"
+zeichenkette = "Hallo"
 verschiebung = -5
 
 print ("Originale Zeichenkette:", zeichenkette)

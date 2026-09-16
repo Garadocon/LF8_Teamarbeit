@@ -1,9 +1,9 @@
-from Dekodieren.py import decoder
-from Kodieren.py import encoder
+from Dekodieren import decoder
+from Kodieren import encoder
 
 zeichenkette = "hallo"
 verschiebung = 4
 
 print ("Originale Zeichenkette:", zeichenkette)
-print ("Verschobene Zeichenkette:", kodieren.encoder(zeichenkette, verschiebung))
-print ("Dekodierte Zeichenkette:", dekodieren.decoder(kodieren.encoder(zeichenkette, verschiebung), verschiebung))
+print ("Verschobene Zeichenkette:", encoder(zeichenkette, verschiebung))
+print ("Dekodierte Zeichenkette:", decoder(encoder(zeichenkette, verschiebung), verschiebung))
